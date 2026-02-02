@@ -1,0 +1,15 @@
+{
+  "entity.ender_eye.shatter": {
+    "sounds": [
+      {
+        "name": "shattermyeyes:shatter1",
+        "volume": 1.3
+      },
+      {
+        "name": "shattermyeyes:shatter2",
+        "volume": 1.3
+      }
+    ],
+    "subtitle": "subtitles.entity.ender_eye.shatter"
+  }
+}

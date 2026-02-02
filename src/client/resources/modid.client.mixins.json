@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "io.github.mintynoura.shattermyeyes.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+      "ShatterMyEyesClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

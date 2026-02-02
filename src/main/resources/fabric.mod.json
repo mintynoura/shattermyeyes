@@ -1,29 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "shattermyeyes",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Shatter My Eyes",
+	"description": "Gives eyes of ender a new sound effect when breaking",
 	"authors": [
-		"Me!"
+		"mintynoura"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/mintynoura/shattermyeyes"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/shattermyeyes/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+          "io.github.mintynoura.shattermyeyes.ShatterMyEyes"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+          "io.github.mintynoura.shattermyeyes.ShatterMyEyesClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"shattermyeyes.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
