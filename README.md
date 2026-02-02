@@ -1,3 +1,3 @@
 # Shatter My Eyes
 
-Gives eyes of ender a new sound effect when breaking 
+Gives Eyes of Ender a new sound effect when breaking.
