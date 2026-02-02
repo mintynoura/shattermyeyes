@@ -3,7 +3,7 @@
 	"id": "shattermyeyes",
 	"version": "${version}",
 	"name": "Shatter My Eyes",
-	"description": "Gives eyes of ender a new sound effect when breaking",
+	"description": "Gives Eyes of Ender a new sound effect when breaking.",
 	"authors": [
 		"mintynoura"
 	],
@@ -24,13 +24,13 @@
 	"mixins": [
 		"shattermyeyes.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "shattermyeyes.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.18.2",
-		"minecraft": "~1.21.11",
+		"minecraft": "1.21.x",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
