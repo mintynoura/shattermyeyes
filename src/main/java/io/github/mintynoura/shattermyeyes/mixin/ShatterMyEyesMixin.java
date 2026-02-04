@@ -19,7 +19,6 @@ public class ShatterMyEyesMixin {
 	private void shatterMyEyes$shatterSound(EyeOfEnder instance, SoundEvent soundEvent, float f, float g, Operation<Void> original) {
 		if (this.surviveAfterDeath) {
 			original.call(instance, soundEvent, f, g);
-		} else ((EyeOfEnder) (Object) this).playSound(ShatterMyEyes.ENDER_EYE_SHATTER, f, g);
+		} else original.call(instance, ShatterMyEyes.ENDER_EYE_SHATTER, f, g);
 	}
-
 }

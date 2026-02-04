@@ -3,7 +3,6 @@
 	"package": "io.github.mintynoura.shattermyeyes.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "ShatterMyEyesClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
